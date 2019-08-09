@@ -1,0 +1,163 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 80px;
+    background-image: url("../images/Newspapers.jpg");
+    background-color: dodgerblue;
+}
+
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkblue;
+    text-shadow: 2px 2px dodgerblue;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 33, 175, .75);
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-b {
+    display: flex;
+    justify-content: center;
+}
+
+/* NAVBAR BUTTONS */
+.navbar-brand {
+    color: white;
+    background: #0E0A73;
+    background: -moz-linear-gradient(top, #0E0A73 0%, #1610BA 50%, #1F16FF 100%);
+    background: -webkit-linear-gradient(top, #0E0A73 0%, #1610BA 50%, #1F16FF 100%);
+    background: linear-gradient(to bottom, #0E0A73 0%, #1610BA 50%, #1F16FF 100%);
+    font-size: 1rem;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+.active {
+    /* margin-top: .5rem; */
+    background-color: white;
+    border: navy 1px solid;
+    border-radius: 10px;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+.scrape-new {
+    padding: .5rem;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: crimson !important;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    margin: auto;
+    color: white;
+    background-color: rgb(33, 33, 175, .75);
+    position: relative;
+    width: 60%;
+    height: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* DYNAMIC ARTICLE CONTAINER */
+.alert {
+    background-color: navy;
+    color: white;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(33, 33, 175, .75);
+    margin-left: 5%;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2%;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.btn-save {
+    color: white !important;
+    background-color: dodgerblue;
+    border: 1px rgb(33, 33, 175) solid;
+    font-stretch: expanded;
+    border-radius: 10px;
+    padding: .5rem;
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+.btn.notes{
+    
+    border: 1px white solid;
+    margin: 1rem;
+    width: 20rem;
+    margin: auto;
+}
+
+.btn.delete {
+    display: flex;
+    justify-content: center;
+   
+    background: purple;
+    border: white 1px solid;
+    width: 20rem;
+    margin: auto;
+}
+
+.panel-default {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.panel-body img {
+    border-radius: 10px;
+    border: white 1px solid;
+}
+
+/* NOTES FOR ARTICLES */
+textarea {
+    width: 100%;
+}
+
+
+
+/* FOOTER */
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: rgb(33, 33, 175, .75);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+} 
